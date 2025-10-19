@@ -1,0 +1,9 @@
+.hero-cont {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img-bg {
+    
+    object-fit: cover;
+}
