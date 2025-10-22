@@ -1,0 +1,17 @@
+.about-container {
+    background-color: black;
+}
+
+.about-content {
+    display: flex;
+}
+
+h1 {
+    color: #ffff;
+    font-size: medium;
+
+}
+
+p {
+    color: #ffff;
+}

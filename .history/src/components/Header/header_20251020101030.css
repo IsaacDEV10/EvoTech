@@ -35,7 +35,7 @@
 
 .menu-item {
     text-decoration: none;
-    font-size: 1.05rem;
+    font-size: 0.9rem;
     font-weight: 500;
     color: #ffff;
     position: relative;
@@ -48,7 +48,7 @@
     width: 2rem;
     height: 0.2rem;
     background: #2D6FBF;
-    border-radius: 10px;
+    border-radius: 50%;
     position: absolute;
     bottom: -0.6rem;
     opacity: 0;
@@ -73,7 +73,7 @@
     padding: 0.6rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
-    border-radius: 10px;
+    border-radius: 0.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
 }

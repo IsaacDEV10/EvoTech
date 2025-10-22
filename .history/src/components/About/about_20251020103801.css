@@ -1,0 +1,26 @@
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.about-body {
+    width: ;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    color: #fff; 
+}
+
+h1 {
+    color: #ffff;
+    font-size: medium;
+
+}
+
+p {
+    color: #ffff;
+}
