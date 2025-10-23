@@ -1,0 +1,11 @@
+.about-container {  
+    display: block;
+
+   
+}
+
+.about-image {
+    width: 180px;
+    text-align: center;
+    margin-bottom: 20px;
+}
