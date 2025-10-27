@@ -282,7 +282,6 @@ header nav a{
     gap: 10px;
     width: 100%;
     border-top: 1px solid #fff;
-    color: #fff;
     margin-top: 20px;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications div{

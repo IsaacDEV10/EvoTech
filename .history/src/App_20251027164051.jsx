@@ -16,7 +16,7 @@ const App = () => {
       <Hero />
       <About/>
       <Missao />
-      <Carousel />
+
     </>
   );
 }

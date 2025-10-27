@@ -4,7 +4,6 @@ import Header from './components/Header/header';
 import Hero from './components/Hero/hero';
 import About from './components/About/about';
 import Missao from './components/Missao/missao';
-import Carousel from './components/Carousel/carousel';
 
 
 
@@ -16,7 +15,8 @@ const App = () => {
       <Hero />
       <About/>
       <Missao />
-      <Carousel />
+      <car
+
     </>
   );
 }

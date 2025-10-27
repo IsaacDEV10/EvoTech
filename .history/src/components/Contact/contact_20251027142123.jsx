@@ -1,6 +1,8 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
 import './contact.css'; 
+
+// Importa os ícones
 import { FaInstagram } from 'react-icons/fa'; 
 import { MdPhone } from 'react-icons/md'; 
 import { FiMail } from 'react-icons/fi'; 

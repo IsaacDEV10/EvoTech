@@ -93,7 +93,6 @@ header nav a{
 }
 .carousel .list .item:nth-child(2) .introduce{
     opacity: 1;
-    color: #fff;
     pointer-events: auto;
     width: 400px;
     position: absolute;
@@ -116,7 +115,6 @@ header nav a{
 }
 .carousel .list .item .introduce .seeMore{
     font-family: Poppins;
-    color: #fff;
     margin-top: 1.2em;
     padding: 5px 0;
     border: none;
@@ -127,7 +125,7 @@ header nav a{
     transition: background 0.5s;
 }
 .carousel .list .item .introduce .seeMore:hover{
-    background: #76F014;
+    background: #eee;
 }
 .carousel .list .item:nth-child(1){
     transform: var(--item1-transform);
@@ -272,7 +270,6 @@ header nav a{
     transform: translateY(-50%);
     text-align: right;
     pointer-events: auto;
-    color: #fff;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .title{
     font-size: 4em;
@@ -282,7 +279,6 @@ header nav a{
     gap: 10px;
     width: 100%;
     border-top: 1px solid #fff;
-    color: #fff;
     margin-top: 20px;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications div{

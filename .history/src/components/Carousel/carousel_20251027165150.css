@@ -93,7 +93,6 @@ header nav a{
 }
 .carousel .list .item:nth-child(2) .introduce{
     opacity: 1;
-    color: #fff;
     pointer-events: auto;
     width: 400px;
     position: absolute;
@@ -272,7 +271,6 @@ header nav a{
     transform: translateY(-50%);
     text-align: right;
     pointer-events: auto;
-    color: #fff;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .title{
     font-size: 4em;
@@ -282,7 +280,6 @@ header nav a{
     gap: 10px;
     width: 100%;
     border-top: 1px solid #fff;
-    color: #fff;
     margin-top: 20px;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications div{

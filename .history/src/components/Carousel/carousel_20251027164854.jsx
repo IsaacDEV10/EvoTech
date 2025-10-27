@@ -96,7 +96,7 @@ function Carousel() {
                   {item.des || 'Lorem ipsum dolor sit amet...'}
                 </div>
                 <button className="seeMore" onClick={handleSeeMore}>
-                  SEE MORE &#8599;
+                  SEE MORE &#76F014;
                 </button>
               </div>
               <div className="detail">
@@ -127,7 +127,7 @@ function Carousel() {
             &gt;
           </button>
           <button id="back" onClick={handleBack}>
-            See All&nbsp; &#8599;
+            See All&nbsp; &#76F014;
           </button>
         </div>
       </div>
