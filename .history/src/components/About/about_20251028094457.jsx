@@ -5,7 +5,7 @@ import Logo from "../../assets/evotech.png"
 const About = () => {
     return (
         <section className="about-container" id="home">
-            <h1>Sobre Nós</h1>
+            h1
             <div className="about-content">
                 <div className="about-text-content">
                     <h1>Moldando a Próxima Era da Robótica</h1>

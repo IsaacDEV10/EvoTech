@@ -21,15 +21,15 @@ const initialItemsData = [
     id: 2,
     imgSrc: Robo2,
     title: 'Robo de Soldagem 2',
-    topic: 'B5 00R',
+    topic: '',
     des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laborum cumque dignissimos quidem atque et eligendi aperiam voluptates beatae maxime.',
-    detailTitle: 'Robo B5 00R',
+    detailTitle: 'Aerphone GHTK 2',
     detailDes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.',
   },
-  { id: 3, imgSrc: Robo3, title: 'Robo de Soldagem 3', topic: 'GSK BRASIL' },
-  { id: 4, imgSrc: Robo4, title: 'Robo de Soldagem 4', topic: 'VIBAZ' },
-  { id: 5, imgSrc: Robo5, title: 'Robo de Soldagem 5', topic: 'Sumig' },
-  { id: 6, imgSrc: Robo6, title: 'Robo de Soldagem 6', topic: 'Texai' },
+  { id: 3, imgSrc: Robo3, title: 'DESIGN SLIDER 3', topic: 'Aerphone' },
+  { id: 4, imgSrc: Robo4, title: 'DESIGN SLIDER 4', topic: 'Aerphone' },
+  { id: 5, imgSrc: Robo5, title: 'DESIGN SLIDER 5', topic: 'Aerphone' },
+  { id: 6, imgSrc: Robo6, title: 'DESIGN SLIDER 6', topic: 'Aerphone' },
 ];
 
 function Carousel() {
@@ -96,7 +96,7 @@ function Carousel() {
                   {item.des || 'Lorem ipsum dolor sit amet...'}
                 </div>
                 <button className="seeMore" onClick={handleSeeMore}>
-                  Veja Mais &#8599;
+                  SEE MORE &#8599;
                 </button>
               </div>
               <div className="detail">

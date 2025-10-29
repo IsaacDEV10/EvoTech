@@ -28,8 +28,8 @@ const initialItemsData = [
   },
   { id: 3, imgSrc: Robo3, title: 'Robo de Soldagem 3', topic: 'GSK BRASIL' },
   { id: 4, imgSrc: Robo4, title: 'Robo de Soldagem 4', topic: 'VIBAZ' },
-  { id: 5, imgSrc: Robo5, title: 'Robo de Soldagem 5', topic: 'Sumig' },
-  { id: 6, imgSrc: Robo6, title: 'Robo de Soldagem 6', topic: 'Texai' },
+  { id: 5, imgSrc: Robo5, title: 'Robo de Soldagem 5', topic: 'SUmig' },
+  { id: 6, imgSrc: Robo6, title: 'Robo de Soldagem 6', topic: 'Aerphone' },
 ];
 
 function Carousel() {
@@ -96,7 +96,7 @@ function Carousel() {
                   {item.des || 'Lorem ipsum dolor sit amet...'}
                 </div>
                 <button className="seeMore" onClick={handleSeeMore}>
-                  Veja Mais &#8599;
+                  SEE MORE &#8599;
                 </button>
               </div>
               <div className="detail">
