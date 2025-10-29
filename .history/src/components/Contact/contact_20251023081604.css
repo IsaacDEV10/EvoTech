@@ -1,0 +1,12 @@
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Estilo para a caixa branca do popup */
+.custom-modal-content {
+  background-color: white !important;
+  padding: 40px !important;
+  border-radius: 8px !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}

@@ -1,0 +1,24 @@
+import React from 'react';
+import './App.css';
+import Header from './components/Header/header';
+import Hero from './components/Hero/hero';
+import About from './components/About/about';
+import Missao from './components/Missao/missao';
+
+
+
+
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Hero />
+      <About/>
+      <Missao />
+      <CaretPosition
+
+    </>
+  );
+}
+
+export default App;

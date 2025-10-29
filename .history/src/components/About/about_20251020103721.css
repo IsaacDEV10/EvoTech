@@ -1,0 +1,19 @@
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.about-body
+
+h1 {
+    color: #ffff;
+    font-size: medium;
+
+}
+
+p {
+    color: #ffff;
+}

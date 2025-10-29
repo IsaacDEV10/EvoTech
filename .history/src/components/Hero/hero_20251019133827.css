@@ -1,0 +1,9 @@
+.hero-container {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img-bg {
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,9 @@
+.container-hero {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img-full-cover {
+    
+    object-fit: cover;
+}

@@ -1,0 +1,79 @@
+/* Estilo para o fundo escuro (Overlay) */
+.custom-overlay {
+  background-color: #282C34;
+}
+
+.contact-btn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background:#2D6FBF;
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-btn:hover {
+    color: black;
+    background: #76F014;
+    outline: 1.5px solid black;
+}
+
+/* Estilo para a caixa branca do popup (Content) */
+.custom-modal-content {
+  background-color: #282C34;
+  padding: 40px !important;
+  border-radius: 8px !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+  width: 300px;
+}
+
+/* Estilo para o cabeçalho dentro do popup */
+.popup-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o container dos ícones */
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Estilo para o botão de fechar dentro do popup (o "x") */
+.popup-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Estilo para o botão "Fechar" no rodapé */
+.popup-footer-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #333;
+  width: 100%;
+}

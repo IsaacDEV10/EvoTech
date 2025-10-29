@@ -1,0 +1,35 @@
+
+.about-container {
+     height: auto; 
+    width: 100%;
+    position: relative; 
+    overflow: hidden;
+}
+
+.about-body {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    color: #fff; 
+}
+
+h1 {
+    color: #ffff;
+    font-size: medium;
+
+}
+
+p {
+    color: #ffff;
+}
+
+.img-about {
+    display: inline-block;
+    justify-content: space-between;
+    
+    
+}
+.img-about img {
+    width: ;
+}
