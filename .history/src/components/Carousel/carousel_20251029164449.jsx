@@ -140,11 +140,12 @@ function Carousel() {
                 <div className="specifications">
                   <div><p>Soldagem</p><p>Automatizada</p></div>
                   <div><p>Liberdade</p><p>Fluídez</p></div>
-                  <div><p>Controle</p><p>Simples</p></div>
-                  <div><p>Locomoção</p><p>Fácil</p></div>
+                  <div><p>Controle</p><p>Android</p></div>
+                  <div><p>Bluetooth</p><p>5.3</p></div>
+                  <div><p>Controlled</p><p>Touch</p></div>
                 </div>
                 <div className="checkout">
-                  <button onClick={handleBack}>Retornar</button>
+                  <button>Retornar</button>
                 </div>
               </div>
             </div>

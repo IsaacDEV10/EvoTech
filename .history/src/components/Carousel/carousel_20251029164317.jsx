@@ -59,8 +59,8 @@ const initialItemsData = [
     title: 'Robo de Soldagem',
     topic: 'Texai',
     des: 'O Robô de Soldagem Texai combina a robustez e a engenharia de uma marca global com a precisão necessária para a soldagem industrial moderna, oferecendo às empresas uma solução poderosa para maximizar a eficiência e a qualidade na produção.',
-    detailTitle: 'Robo Texai',
-    detailDes: 'O Robô de Soldagem Texai combina a robustez e a engenharia de uma marca global com a precisão necessária para a soldagem industrial moderna, oferecendo às empresas uma solução poderosa para maximizar a eficiência e a qualidade na produção.',
+    detailTitle: 'Robo B5 00R',
+    detailDes: ' Robô industrial articulado, de alta precisão, otimizado para tarefas de soldagem (MIG/MAG ou TIG, dependendo da configuração da tocha). Seu design compacto e alcance versátil o tornam uma solução eficiente para automatizar a produção, garantindo soldas consistentes e aumentando a produtividade e a segurança na linha de montagem.',
   },
   
 ];
@@ -139,12 +139,13 @@ function Carousel() {
                 </div>
                 <div className="specifications">
                   <div><p>Soldagem</p><p>Automatizada</p></div>
-                  <div><p>Liberdade</p><p>Fluídez</p></div>
-                  <div><p>Controle</p><p>Simples</p></div>
-                  <div><p>Locomoção</p><p>Fácil</p></div>
+                  <div><p>Liberdade de movimento</p><p>Type-C</p></div>
+                  <div><p>Compatible</p><p>Android</p></div>
+                  <div><p>Bluetooth</p><p>5.3</p></div>
+                  <div><p>Controlled</p><p>Touch</p></div>
                 </div>
                 <div className="checkout">
-                  <button onClick={handleBack}>Retornar</button>
+                  <button>Retornar</button>
                 </div>
               </div>
             </div>

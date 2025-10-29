@@ -31,36 +31,36 @@ const initialItemsData = [
     imgSrc: Robo3,
     title: 'Robo de Soldagem',
     topic: 'GSK BRASIL',
-    des: 'O modelo GSK BRASIL representa uma solução de automação de ponta, ideal para indústrias que buscam aumentar drasticamente a produtividade, manter a uniformidade na produção em massa e otimizar os custos operacionais. É a ferramenta perfeita para a soldagem de precisão em linhas de montagem exigentes.',
-    detailTitle: 'Robo GSK BRASIL',
-    detailDes: ' O modelo GSK BRASIL representa uma solução de automação de ponta, ideal para indústrias que buscam aumentar drasticamente a produtividade, manter a uniformidade na produção em massa e otimizar os custos operacionais. É a ferramenta perfeita para a soldagem de precisão em linhas de montagem exigentes.',
+    des: 'Robô Industrial articulado, de alta precisão, otimizado para tarefas de soldagem (MIG/MAG ou TIG, dependendo da configuração da tocha). Seu design compacto e alcance versátil o tornam uma solução eficiente para automatizar a produção, garantindo soldas consistentes e aumentando a produtividade e a segurança na linha de montagem.',
+    detailTitle: 'Robo B5 00R',
+    detailDes: ' Robô industrial articulado, de alta precisão, otimizado para tarefas de soldagem (MIG/MAG ou TIG, dependendo da configuração da tocha). Seu design compacto e alcance versátil o tornam uma solução eficiente para automatizar a produção, garantindo soldas consistentes e aumentando a produtividade e a segurança na linha de montagem.',
   },
   {
     id: 4,
     imgSrc: Robo4,
     title: 'Robo de Soldagem',
     topic: 'VIBAZ',
-    des: 'O Robô de Soldagem VIBAZ é apresentado como uma solução eficiente para automatizar a produção, pois garante soldas consistentes e contribui para o aumento da produtividade e segurança na linha de montagem. É uma máquina projetada para otimizar tarefas de soldagem industrial.',
-    detailTitle: 'Robo VIBAZ',
-    detailDes: ' O Robô de Soldagem VIBAZ é apresentado como uma solução eficiente para automatizar a produção, pois garante soldas consistentes e contribui para o aumento da produtividade e segurança na linha de montagem. É uma máquina projetada para otimizar tarefas de soldagem industrial.',
+    des: 'Robô industrial articulado, de alta precisão, otimizado para tarefas de soldagem (MIG/MAG ou TIG, dependendo da configuração da tocha). Seu design compacto e alcance versátil o tornam uma solução eficiente para automatizar a produção, garantindo soldas consistentes e aumentando a produtividade e a segurança na linha de montagem.',
+    detailTitle: 'Robo B5 00R',
+    detailDes: ' Robô industrial articulado, de alta precisão, otimizado para tarefas de soldagem (MIG/MAG ou TIG, dependendo da configuração da tocha). Seu design compacto e alcance versátil o tornam uma solução eficiente para automatizar a produção, garantindo soldas consistentes e aumentando a produtividade e a segurança na linha de montagem.',
   },
   {
     id: 5,
     imgSrc: Robo5,
     title: 'Robo de Soldagem',
     topic: 'Sumig',
-    des: 'O Robô de Soldagem Sumig é uma solução de automação avançada que combina um design clean com a força e a precisão necessárias para transformar processos de fabricação, elevando a produtividade e a segurança operacional a novos patamares.',
-    detailTitle: 'Robo Sumig',
-    detailDes: 'O Robô de Soldagem Sumig é uma solução de automação avançada que combina um design clean com a força e a precisão necessárias para transformar processos de fabricação, elevando a produtividade e a segurança operacional a novos patamares.',
+    des: 'Robô industrial articulado, de alta precisão, otimizado para tarefas de soldagem (MIG/MAG ou TIG, dependendo da configuração da tocha). Seu design compacto e alcance versátil o tornam uma solução eficiente para automatizar a produção, garantindo soldas consistentes e aumentando a produtividade e a segurança na linha de montagem.',
+    detailTitle: 'Robo B5 00R',
+    detailDes: ' Robô industrial articulado, de alta precisão, otimizado para tarefas de soldagem (MIG/MAG ou TIG, dependendo da configuração da tocha). Seu design compacto e alcance versátil o tornam uma solução eficiente para automatizar a produção, garantindo soldas consistentes e aumentando a produtividade e a segurança na linha de montagem.',
   },
   {
     id: 6,
     imgSrc: Robo6,
     title: 'Robo de Soldagem',
     topic: 'Texai',
-    des: 'O Robô de Soldagem Texai combina a robustez e a engenharia de uma marca global com a precisão necessária para a soldagem industrial moderna, oferecendo às empresas uma solução poderosa para maximizar a eficiência e a qualidade na produção.',
-    detailTitle: 'Robo Texai',
-    detailDes: 'O Robô de Soldagem Texai combina a robustez e a engenharia de uma marca global com a precisão necessária para a soldagem industrial moderna, oferecendo às empresas uma solução poderosa para maximizar a eficiência e a qualidade na produção.',
+    des: 'Robô industrial articulado, de alta precisão, otimizado para tarefas de soldagem (MIG/MAG ou TIG, dependendo da configuração da tocha). Seu design compacto e alcance versátil o tornam uma solução eficiente para automatizar a produção, garantindo soldas consistentes e aumentando a produtividade e a segurança na linha de montagem.',
+    detailTitle: 'Robo B5 00R',
+    detailDes: ' Robô industrial articulado, de alta precisão, otimizado para tarefas de soldagem (MIG/MAG ou TIG, dependendo da configuração da tocha). Seu design compacto e alcance versátil o tornam uma solução eficiente para automatizar a produção, garantindo soldas consistentes e aumentando a produtividade e a segurança na linha de montagem.',
   },
   
 ];
@@ -139,12 +139,13 @@ function Carousel() {
                 </div>
                 <div className="specifications">
                   <div><p>Soldagem</p><p>Automatizada</p></div>
-                  <div><p>Liberdade</p><p>Fluídez</p></div>
-                  <div><p>Controle</p><p>Simples</p></div>
-                  <div><p>Locomoção</p><p>Fácil</p></div>
+                  <div><p>Liberdade de movimento</p><p>Type-C</p></div>
+                  <div><p>Compatible</p><p>Android</p></div>
+                  <div><p>Bluetooth</p><p>5.3</p></div>
+                  <div><p>Controlled</p><p>Touch</p></div>
                 </div>
                 <div className="checkout">
-                  <button onClick={handleBack}>Retornar</button>
+                  <button>Retornar</button>
                 </div>
               </div>
             </div>

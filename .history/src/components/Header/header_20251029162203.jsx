@@ -19,7 +19,7 @@ const Header = () => {
                 </li>
 
                 <li>
-                    <a className='menu-item' href="#projetos">Projetos</a>
+                    <a className='menu-item' href="">Projetos</a>
                 </li>
                 <Contact/>
             </ul>

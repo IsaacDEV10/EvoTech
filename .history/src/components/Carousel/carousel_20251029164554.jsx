@@ -144,7 +144,7 @@ function Carousel() {
                   <div><p>Locomoção</p><p>Fácil</p></div>
                 </div>
                 <div className="checkout">
-                  <button onClick={handleBack}>Retornar</button>
+                  <button>Retornar</button>
                 </div>
               </div>
             </div>
