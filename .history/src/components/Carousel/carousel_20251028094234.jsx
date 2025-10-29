@@ -96,7 +96,7 @@ function Carousel() {
                   {item.des || 'Lorem ipsum dolor sit amet...'}
                 </div>
                 <button className="seeMore" onClick={handleSeeMore}>
-                  Veja Mais &#8599;
+                  veja Mais &#8599;
                 </button>
               </div>
               <div className="detail">

@@ -27,9 +27,9 @@ const initialItemsData = [
     detailDes: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.',
   },
   { id: 3, imgSrc: Robo3, title: 'Robo de Soldagem 3', topic: 'GSK BRASIL' },
-  { id: 4, imgSrc: Robo4, title: 'Robo de Soldagem 4', topic: 'VIBAZ' },
-  { id: 5, imgSrc: Robo5, title: 'Robo de Soldagem 5', topic: 'Sumig' },
-  { id: 6, imgSrc: Robo6, title: 'Robo de Soldagem 6', topic: 'Texai' },
+  { id: 4, imgSrc: Robo4, title: 'Robo de Soldagem 4', topic: '' },
+  { id: 5, imgSrc: Robo5, title: 'Robo de Soldagem 5', topic: 'Aerphone' },
+  { id: 6, imgSrc: Robo6, title: 'Robo de Soldagem 6', topic: 'Aerphone' },
 ];
 
 function Carousel() {
@@ -96,7 +96,7 @@ function Carousel() {
                   {item.des || 'Lorem ipsum dolor sit amet...'}
                 </div>
                 <button className="seeMore" onClick={handleSeeMore}>
-                  Veja Mais &#8599;
+                  SEE MORE &#8599;
                 </button>
               </div>
               <div className="detail">

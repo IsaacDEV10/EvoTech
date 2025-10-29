@@ -305,12 +305,11 @@ header nav a{
     letter-spacing: 2px;
     font-weight: 500;
     color: #fff;
-    cursor: pointer;
 }
 .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button:nth-child(2){
     background-color: #76F014;
     color: black;
-    cursor: pointer;
+    cursor: ;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail  .title,
 .carousel.showDetail .list .item:nth-child(2) .detail  .des,
@@ -337,7 +336,6 @@ header nav a{
     justify-content: space-between;
     left: 50%;
     transform: translateX(-50%);
-    cursor: pointer;
 }
 #prev,
 #next{
@@ -349,7 +347,6 @@ header nav a{
     font-size: large;
     bottom: 20%;
     left: 10%;
-    cursor: pointer;
 }
 #next{
     left: unset;

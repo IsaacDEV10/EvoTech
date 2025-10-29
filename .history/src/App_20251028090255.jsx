@@ -18,7 +18,7 @@ const App = () => {
       <About/>
       <Missao />
       <Carousel />
-      <Footer />
+      <Footer
     </>
   );
 }

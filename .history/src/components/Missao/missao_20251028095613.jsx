@@ -8,7 +8,7 @@ const Missao = () => {
         <section>
             <div>
                 <h1>
-                    Missão e Valores da EvoTech
+                    
                 </h1>
                 <p>
 
