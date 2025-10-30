@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css";
-import heroVideo from "../../assets/evotech-bg.png";
+import heroVideo from "../../assets/evotech-bg2.jpg";
 
 const Hero = () => {
   return (

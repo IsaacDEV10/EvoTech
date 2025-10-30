@@ -5,7 +5,7 @@ import Robo2 from '../../assets/robo-2.png';
 import Robo3 from '../../assets/robo-3.png';
 import Robo4 from '../../assets/robo-4.png';
 import Robo5 from '../../assets/robo-5.png';
-import Robo6 from '../../assets/robo-6.png';
+import Robo6 from '../../assets/robo-7.png';
 
 const initialItemsData = [
   {
