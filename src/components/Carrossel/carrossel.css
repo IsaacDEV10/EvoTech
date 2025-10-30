@@ -45,14 +45,13 @@ header .logo{
 header nav a{
     margin-left: 30px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 500;
 }
 
 .carousel{
     position: relative;
     height: 800px;
-    background-color: white;
     overflow: hidden;
     margin-top: -50px;
 }
@@ -94,7 +93,7 @@ header nav a{
 }
 .carousel .list .item:nth-child(2) .introduce{
     opacity: 1;
-    color: black;
+    color: white;
     pointer-events: auto;
     width: 400px;
     position: absolute;
@@ -113,22 +112,22 @@ header nav a{
 }
 .carousel .list .item .introduce .des{
     font-size: small;
-    color: black;
+    color: white;
 }
 .carousel .list .item .introduce .seeMore{
     font-family: Poppins;
-    color: black;
+    color: white;
     margin-top: 1.2em;
     padding: 7px 0;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     background-color: transparent;
     font-weight: bold;
     letter-spacing: 3px;
     transition: background-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
 }
 .carousel .list .item .introduce .seeMore:hover{
-    color: black;
+    color: white;
     box-shadow: 1px 2px 1px 1px #0eafe9;
     cursor: pointer;
 }
@@ -275,7 +274,7 @@ header nav a{
     transform: translateY(-50%);
     text-align: right;
     pointer-events: auto;
-    color: black;
+    color: white;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .title{
     font-size: 4em;
@@ -284,8 +283,8 @@ header nav a{
     display: flex;
     gap: 10px;
     width: 100%;
-    border-top: 1px solid black;
-    color: black;
+    border-top: 1px solid white;
+    color: white;
     margin-top: 20px;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications div{
@@ -300,19 +299,19 @@ header nav a{
 .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button{
     font-family: Poppins;
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 5px;
     padding: 5px 10px;
     letter-spacing: 2px;
     font-weight: 500;
-    color: black;
+    color: white;
     cursor: pointer;
     transition: background-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
 }
 
 .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button:hover{
     box-shadow: 1px 2px 1px 1px #0eafe9;
-    color: black; /* mantém legibilidade */
+    color: white; /* mantém legibilidade */
 }
 
 .carousel.showDetail .list .item:nth-child(2) .detail  .title,
@@ -362,12 +361,13 @@ header nav a{
     left: 50%;
     transform: translateX(-50%);
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     font-family: Poppins;
     font-weight: bold;
     letter-spacing: 3px;
     background-color: transparent;
     padding: 10px;
+    color: white;
     /* opacity: 0; */
     transition: opacity 0.5s;
     transition: background-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
@@ -376,7 +376,7 @@ header nav a{
 #back:hover{
   box-shadow: 0px 2px 0px 0px #0eafe9;
   transform: translateX(-50%) translateY(-1px); /* “pequeno” lift */
-  color: black; /* mantém legibilidade */
+  color: white; /* mantém legibilidade */
 }
 
 .carousel.showDetail #back{
