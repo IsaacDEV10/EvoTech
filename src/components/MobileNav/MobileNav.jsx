@@ -1,6 +1,6 @@
 import React from 'react';
 import "./MobileNav.css";
-import logo from '../../assets/EvoTech.svg';
+import logo from '../../assets/EvoTech.png';
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
   return (

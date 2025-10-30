@@ -1,5 +1,5 @@
 import "./about.css";
-import Logo from "../../assets/EvoTech.svg"
+import Logo from "../../assets/EvoTech.png"
 
 const About = () => {
     return (

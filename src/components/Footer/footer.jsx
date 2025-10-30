@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import Logo from '../../assets/EvoTech.svg';
+import Logo from '../../assets/EvoTech.png';
 
 const Footer = () => {
   return (

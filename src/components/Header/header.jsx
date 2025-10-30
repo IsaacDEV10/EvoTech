@@ -1,7 +1,7 @@
 
 import './header.css'
 import React, { useState } from 'react';
-import logo from '../../assets/EvoTech.svg'
+import logo from '../../assets/EvoTech.png'
 import Contact from '../Contact/contact'
 import MobileNav from '../MobileNav/MobileNav';
 
