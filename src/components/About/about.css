@@ -27,6 +27,7 @@
 }
 .about-text-content h1 {
     font-size: 40px;
+    box-shadow: 0px 2px 0px 0px #0eafe9;
 }
 
 .about-text-content p {

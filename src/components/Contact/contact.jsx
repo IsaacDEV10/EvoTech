@@ -33,21 +33,11 @@ const Contact = () => (
         {}
         <div className="icon-container">
           
-          {}
-          <a href="URL_DO_INSTAGRAM" target="_blank" rel="noopener noreferrer">
-            {}
-            <FaInstagram size={35} color="#E1306C" />
-          </a>
+          <h3>
+            Inovação em <br /> Hardware e Software
+          </h3>
 
-          {}
-          <a href="tel:+5511987654321">
-            <MdPhone size={35} color="#25D366" />
-          </a>
-          
-          {}
-          <a href="mailto:seu.email@exemplo.com">
-            <FiMail size={35} color="#DB4437" />
-          </a>
+          <h1>Entre em Contato!</h1>
           
         </div>
         

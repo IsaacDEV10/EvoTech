@@ -1,6 +1,7 @@
 .custom-overlay {
   background-color: #282C34;
   transition: opacity 0.3s ease-in-out; 
+  
 }
 
 .contact-btn {
@@ -17,6 +18,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    
 }
 
 .contact-btn a {
@@ -34,17 +36,19 @@
     opacity: 0;
     animation: fadeIn 0.3s ease-in-out;
   z-index: 1000;
+
 }
 
 .popup-container{
-  background-color: #282C34;
+  background-color: #fff;
   padding: 50px !important;
   border-radius: 15px !important;
   border: none !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
   animation: fadeIn 0.3s ease-in-out;
   z-index: 1000;
-  width: 400px;
+  width: 600px;
+  height: 400px;
 }
 
 .popup-header {
@@ -55,7 +59,7 @@
 
 .icon-container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 20px;
