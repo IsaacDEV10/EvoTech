@@ -116,7 +116,8 @@ function Carousel() {
     
   return (
     <>
-      <div className={`carousel ${carouselClass}`} id='projetos'>
+    <h1 className='titulo' id='projetos'>Projetos</h1>
+      <div className={`carousel ${carouselClass}`} >
         <div className="list">
           {items.map((item) => (
             <div className="item" key={item.id}>
@@ -157,7 +158,7 @@ function Carousel() {
           <button id="next" onClick={() => showSlider('next')} disabled={isClickDisabled}>
             &gt;
           </button>
-          <button id="back" onClick={handleBack}>
+          <button id="back" onClick={showSlider}>
             See All&nbsp; &#8599;
           </button>
         </div>

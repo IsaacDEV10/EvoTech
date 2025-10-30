@@ -85,7 +85,7 @@
 
 .contact-btn:hover {
     color: black;
-    background: #76F014;
+    background: #ffff;
     outline: 1.5px solid black;
 }
 
@@ -108,7 +108,7 @@
 
 .menu-btn:hover {
     color: #6791fb;
-    background: #76F014;
+    background: #ffff;
     border: 1px solid transparent;
 }
 

@@ -48,6 +48,12 @@ header nav a{
     color: white;
     font-weight: 500;
 }
+.titulo {
+    text-align: center;
+    font-size: 60px;
+    margin: 40px 0 20px 0;
+    color: white;
+}
 
 .carousel{
     position: relative;
