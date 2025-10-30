@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './carousel.css'; 
+import './carrossel.css'; 
 import Robo1 from '../../assets/robo-1.png';
 import Robo2 from '../../assets/robo-2.png';
 import Robo3 from '../../assets/robo-3.png';

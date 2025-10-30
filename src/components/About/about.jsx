@@ -1,6 +1,5 @@
-import React from "react";
 import "./about.css";
-import Logo from "../../assets/evotech.png"
+import Logo from "../../assets/EvoTech.svg"
 
 const About = () => {
     return (
@@ -14,7 +13,7 @@ const About = () => {
 Vamos além da automação básica. Criamos parceiros mecânicos que aprendem, se adaptam e trabalham lado a lado com humanos para resolver os desafios mais difíceis do mundo moderno — desde a logística de precisão até a assistência em ambientes perigosos.</p>
                 </div>
                 <div className="about-image">
-                    <img src={Logo} alt="Logo da EvoTech" />
+                    <img width={800} height={450} src={Logo} alt="Logo da EvoTech" />
                 </div>
             </div>
         </section>

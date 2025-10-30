@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import logo from '../../assets/evotech.png'
+import logo from '../../assets/EvoTech.svg'
 import Contact from '../Contact/contact'
 
 

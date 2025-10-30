@@ -45,14 +45,14 @@ header .logo{
 header nav a{
     margin-left: 30px;
     text-decoration: none;
-    color: #ffff;
+    color: black;
     font-weight: 500;
 }
-
 
 .carousel{
     position: relative;
     height: 800px;
+    background-color: white;
     overflow: hidden;
     margin-top: -50px;
 }
@@ -94,7 +94,7 @@ header nav a{
 }
 .carousel .list .item:nth-child(2) .introduce{
     opacity: 1;
-    color: #fff;
+    color: black;
     pointer-events: auto;
     width: 400px;
     position: absolute;
@@ -113,23 +113,23 @@ header nav a{
 }
 .carousel .list .item .introduce .des{
     font-size: small;
-    color: #fff;
+    color: black;
 }
 .carousel .list .item .introduce .seeMore{
     font-family: Poppins;
-    color: #fff;
+    color: black;
     margin-top: 1.2em;
     padding: 7px 0;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid black;
     background-color: transparent;
     font-weight: bold;
     letter-spacing: 3px;
-    transition: background 0.5s;
+    transition: background-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
 }
 .carousel .list .item .introduce .seeMore:hover{
     color: black;
-    background: #76F014;
+    box-shadow: 1px 2px 1px 1px #0eafe9;
     cursor: pointer;
 }
 .carousel .list .item:nth-child(1){
@@ -275,7 +275,7 @@ header nav a{
     transform: translateY(-50%);
     text-align: right;
     pointer-events: auto;
-    color: #fff;
+    color: black;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .title{
     font-size: 4em;
@@ -284,8 +284,8 @@ header nav a{
     display: flex;
     gap: 10px;
     width: 100%;
-    border-top: 1px solid #fff;
-    color: #fff;
+    border-top: 1px solid black;
+    color: black;
     margin-top: 20px;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications div{
@@ -296,22 +296,25 @@ header nav a{
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications div p:nth-child(1){
     font-weight: bold;
 }
+
 .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button{
     font-family: Poppins;
     background-color: transparent;
-    border: 1px solid #ffff;
+    border: 1px solid black;
     margin-left: 5px;
     padding: 5px 10px;
     letter-spacing: 2px;
     font-weight: 500;
-    color: #fff;
-    cursor: pointer;
-}
-.carousel.carousel.showDetail .list .item:nth-child(2) .checkout button:nth-child(2){
-    background-color: #76F014;
     color: black;
     cursor: pointer;
+    transition: background-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
 }
+
+.carousel.carousel.showDetail .list .item:nth-child(2) .checkout button:hover{
+    box-shadow: 1px 2px 1px 1px #0eafe9;
+    color: black; /* mantém legibilidade */
+}
+
 .carousel.showDetail .list .item:nth-child(2) .detail  .title,
 .carousel.showDetail .list .item:nth-child(2) .detail  .des,
 .carousel.showDetail .list .item:nth-child(2) .detail .specifications,
@@ -337,7 +340,6 @@ header nav a{
     justify-content: space-between;
     left: 50%;
     transform: translateX(-50%);
-    cursor: pointer;
 }
 #prev,
 #next{
@@ -350,11 +352,9 @@ header nav a{
     bottom: 20%;
     left: 10%;
     cursor: pointer;
+    transition: background-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
 }
-#next{
-    left: unset;
-    right: 10%;
-}
+
 #back{
     position: absolute;
     z-index: 100;
@@ -362,7 +362,7 @@ header nav a{
     left: 50%;
     transform: translateX(-50%);
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid black;
     font-family: Poppins;
     font-weight: bold;
     letter-spacing: 3px;
@@ -370,7 +370,15 @@ header nav a{
     padding: 10px;
     /* opacity: 0; */
     transition: opacity 0.5s;
+    transition: background-color .25s ease, color .25s ease, box-shadow .25s ease, transform .25s ease;
 }
+
+#back:hover{
+  box-shadow: 0px 2px 0px 0px #0eafe9;
+  transform: translateX(-50%) translateY(-1px); /* “pequeno” lift */
+  color: black; /* mantém legibilidade */
+}
+
 .carousel.showDetail #back{
     opacity: 1;
 }
@@ -383,7 +391,7 @@ header nav a{
     width: 500px;
     height: 300px;
     content: '';
-    background-image: linear-gradient(70deg, #2D6FBF, #76F014);
+    background-image: linear-gradient(70deg, #2D6FBF, #0eafe9);
     position: absolute;
     z-index: -1;
     border-radius: 20% 30% 80% 10%;
